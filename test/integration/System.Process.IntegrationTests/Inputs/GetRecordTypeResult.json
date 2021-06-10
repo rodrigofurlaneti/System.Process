@@ -1,0 +1,27 @@
+﻿{
+  "IsSuccess": true,
+  "Result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v47.0/sobjects/Account/0012g00000Id8QcAAJ"
+        },
+        "RecordTypeId": "0122g000000ClbMAAS",
+        "Assets": {
+          "totalSize": 1,
+          "done": true,
+          "records": [
+            {
+              "attributes": {
+                "type": "Asset",
+                "url": "/services/data/v47.0/sobjects/Asset/02i2g0000013f4OAAQ"
+              },
+              "Id": "02i2g0000013f4OAAQ"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

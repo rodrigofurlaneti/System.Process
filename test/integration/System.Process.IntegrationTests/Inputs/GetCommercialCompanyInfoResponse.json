@@ -1,0 +1,132 @@
+﻿{
+  "Id": "0012g00000MRJTGAA5",
+  "CIFID__c": "DAA0745",
+  "DBA__c": "DBA Rebel Gunther LSA",
+  "BillingStreet": "123 5th Avenue South",
+  "BillingState": "Florida",
+  "BillingPostalCode": "11111",
+  "BillingCountry": "United States",
+  "Assets": {
+    "records": [
+      {
+        "Id": "02i2g0000015uQUAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g000001c7HJAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uQFAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uQPAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uP2AAI",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uQeAAI",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uPHAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g000001c7HYAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uQ5AAI",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uRSAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uQAAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uOxAAI",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g000001c7GLAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uPWAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g0000015uFGAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": 10045.0
+      },
+      {
+        "Id": "02i2g0000015uQKAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g000001c7HEAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      },
+      {
+        "Id": "02i2g000001c7HOAAY",
+        "CreditCardProduct__c": null,
+        "CreditCardSubproduct__c": null,
+        "CreditLimit__c": null
+      }
+    ]
+  },
+  "Contacts": {
+    "records": [
+      {
+        "Name": "Tremaine M Mullis",
+        "Phone": "+2345425856",
+        "MobilePhone": "+2345425856",
+        "Birthdate": "1990-04-28",
+        "Fax": null
+      }
+    ]
+  }
+}

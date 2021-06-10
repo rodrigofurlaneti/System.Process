@@ -1,0 +1,18 @@
+﻿{
+  "ProcessearchRecords": [
+    {
+      "AccountNumber": "string",
+      "Processtatus": "string",
+      "AccountType": "string",
+      "AvailableBalance": 1,
+      "AvailableBalanceCurrency": "string",
+      "Bank": "string",
+      "CurrentBalance": 1,
+      "CurrentBalanceCurrency": "string",
+      "CustomerId": "string",
+      "Name": "string",
+      "OpeningDate": "2020-05-01T00:00:00",
+      "RoutingNumber": "12345"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿[
+  {
+    "_id": "10001",
+    "Description": "Safra Deposit Statement",
+    "Holder": true,
+    "Merchant": false,
+    "Active": true,
+    "Source": "4sight"
+  },
+  {
+    "_id": "10002",
+    "Description": "Merchant Statement",
+    "Holder": false,
+    "Merchant": true,
+    "Active": true,
+    "Source": "cmm"
+  }
+]

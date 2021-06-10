@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.msbuild" Version="2.8.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="FluentAssertions" Version="5.10.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="3.19.0-beta1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\System.Process.Api\SystemSystem.ProcessProcess.Api.csproj" />
+    <ProjectReference Include="..\..\..\src\System.Process.Application\SystemSystem.ProcessProcess.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\System.Process.Worker\SystemSystem.ProcessProcess.Worker.csproj" />
+    <ProjectReference Include="..\..\integration\System.Process.Base.IntegrationTests\SystemSystem.ProcessProcess.Base.IntegrationTests.csproj" />
+    <ProjectReference Include="..\System.Process.Base.UnitTests\SystemSystem.ProcessProcess.Base.UnitTests.csproj" />
+  </ItemGroup>
+
+</Project>

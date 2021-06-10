@@ -1,0 +1,233 @@
+{
+  "ItemReferenceId": null,
+  "IsSuccess": true,
+  "Message": null,
+  "RrrorMessage": null,
+  "Result": {
+    "entity": {
+      "pan": {
+        "plainText": "5589510000006003"
+      },
+      "dateLastUsed": "0000-00-00:00:00:00.000000",
+      "dateLastUpdated": "2021-01-04:11:18:42.190000",
+      "dateLastMaintained": "2021-01-04:11:18:42.190000",
+      "enterpriseCustomerId": "",
+      "card": {
+        "pinFailCount": "00",
+        "limitGroup": "U53602",
+        "canWithdraw": "Y",
+        "canDeposit": "Y",
+        "canInquire": "Y",
+        "paymentsTo": "Y",
+        "paymentsFrom": "Y",
+        "transfersTo": "Y",
+        "transfersFrom": "Y",
+        "canPurchase": "Y",
+        "thirdPartyPymt": "Y",
+        "pinOffsetIndicator": "00",
+        "pinOffset": "0000",
+        "expirationDate": "2512",
+        "greetingName": "TERENCIO TEST",
+        "mobileEnrollment": "N",
+        "avsData": "",
+        "lastDemographicUpdated": "2021-01-04:11:18:09.650000",
+        "cardStatus": {
+          "status": "Active",
+          "subStatus": null,
+          "hostValue": "OK-Y"
+        },
+        "prevCardStatus": {
+          "status": "Pending Activation",
+          "subStatus": null,
+          "hostValue": "OK-N"
+        },
+        "lastCardStatusUpdated": "0001-01-01:00:00:00.000000",
+        "activationStatus": "Y",
+        "activationMethod": {
+          "description": "Operator",
+          "hostDescription": "Activated using API Maintenance",
+          "hostValue": "A"
+        },
+        "activationTime": "2021-01-04:11:18:42.190000",
+        "optOutVauAbuFlag": "N",
+        "prevCardExpirationDate": "0000",
+        "prevCardActivationStatus": "N",
+        "lastTimePinChanged": "0001-01-01:00:00:00.000000",
+        "cardMediaType": {
+          "description": "Mag Stripe, Contact Chip",
+          "hostDescription": "Mag Stripe, Contact Chip",
+          "hostValue": "IC"
+        },
+        "serviceCode": {
+          "description": "ICC/EMV Cards",
+          "hostDescription": "ICC/EMV Cards",
+          "hostValue": "201"
+        },
+        "cardProfile": "",
+        "autoIssueInd": "Y",
+        "cardAssociation": {
+          "description": "MasterCard",
+          "hostDescription": "MasterCard",
+          "hostValue": "M"
+        },
+        "cardType": {
+          "description": "Debit",
+          "hostDescription": "Debit",
+          "hostValue": "DR"
+        },
+        "cardSubType": {
+          "description": "Business",
+          "hostDescription": "Business",
+          "hostValue": "BU"
+        },
+        "customerSince": "0001-01-01",
+        "vipInd": "N",
+        "embossedBusiness": "TERCOMPANY",
+        "cardCategory": {
+          "description": "Standard",
+          "hostDescription": "Standard",
+          "hostValue": "ST"
+        },
+        "hasCardCompanionMini": "N",
+        "hasCardCompanionMicro": "N",
+        "hasCardCompanionMobile": "N",
+        "contactPref": {
+          "description": "Email",
+          "hostDescription": "Email",
+          "hostValue": "E"
+        },
+        "creditLimit": "0000000000",
+        "cashLimit": "0000000000",
+        "pwrOfAttrnyFlag": "N",
+        "pwrOfAttrnyName": "",
+        "bankBranchNo": "",
+        "vruCntrCardAct": "0",
+        "vruCntrPinChange": "0",
+        "alrtEventNo": "",
+        "alrtEventDate": "0001-01-01",
+        "alrtEventLtd": "",
+        "schdBlockDate": "0001-01-01:00:00:00.000000",
+        "severityLvl": "",
+        "travelInd": {
+          "description": "None",
+          "hostDescription": "None",
+          "hostValue": "N"
+        },
+        "travelStartDate": "0001-01-01",
+        "travelEndDate": "0001-01-01",
+        "addresses": [
+          {
+            "lastAddressUpdated": "2021-01-04:11:18:09.650000",
+            "addressType": {
+              "description": "Primary",
+              "hostDescription": "Primary",
+              "hostValue": "P"
+            },
+            "addressFormat": {
+              "description": "Domestic US",
+              "hostDescription": "Domestic US",
+              "hostValue": "D"
+            },
+            "addressLine1": "STREETTEST 1",
+            "addressLine2": "",
+            "addressLine3": "",
+            "addressLine4": "",
+            "city": "MIAMI",
+            "stateProvince": "FL",
+            "postalCode": "33180",
+            "countryCode": {
+              "description": "United States of America",
+              "hostDescription": "USA",
+              "hostValue": "840"
+            },
+            "beginUsageDate": "0001-01-01",
+            "endUsageDate": "0001-01-01"
+          }
+        ],
+        "members": [
+          {
+            "lastMemberUpdated": "2021-01-04:11:18:09.650000",
+            "memberNum": "01",
+            "isPrimaryContact": "Y",
+            "firstName": "TERENCIO",
+            "lastName": "TEST",
+            "middleInitial": "",
+            "prefix": "",
+            "suffix": "",
+            "embossedName": "TERENCIO TEST",
+            "cardOrdFlag": {
+              "description": "Card and PIN",
+              "hostDescription": "Card and PIN",
+              "hostValue": "B"
+            },
+            "cardOrdStatFlag": {
+              "description": "New Order",
+              "hostDescription": "New Order",
+              "hostValue": "1"
+            },
+            "cardOrdStatDate": "0001-01-01",
+            "cardOrdType": {
+              "description": "Issue new card immediately",
+              "hostDescription": "Issue new card immediately",
+              "hostValue": "1"
+            },
+            "cardReplInd": "Y",
+            "dateOrigIssued": "2021-01-04",
+            "dateLastIssued": "2021-01-04",
+            "cardStockCode": "",
+            "flatCardInd": "N",
+            "issuerStockCode": "",
+            "customImageId": "",
+            "photoId": "N",
+            "imageId": "",
+            "userValidation": "",
+            "dateOfBirth": "1990-01-01",
+            "socialSecurityNumber": "950238721",
+            "motherMaidenName": "",
+            "passcode": "",
+            "trackNameMatch": "",
+            "languageInd": {
+              "description": "English",
+              "hostDescription": "English",
+              "hostValue": "EN"
+            },
+            "emailAddress1": "TERENCIO@TEST.COM",
+            "emailAddress2": "",
+            "militaryFlag": "N",
+            "militaryStartDate": "0001-01-01",
+            "militaryEndDate": "0001-01-01",
+            "phones": [
+              {
+                "phoneNum": "12012345678",
+                "phoneType": {
+                  "description": "Primary",
+                  "hostDescription": "Primary",
+                  "hostValue": "P"
+                },
+                "firstCallInd": "Y",
+                "secondCallInd": "N"
+              }
+            ]
+          }
+        ],
+        "Process": [
+
+        ],
+        "previousCards": [
+
+        ],
+        "replacedByCards": [
+
+        ]
+      }
+    },
+    "metadata": {
+      "msgLst": [
+        {
+          "code": "00",
+          "text": "SUCCESS"
+        }
+      ]
+    }
+  }
+}

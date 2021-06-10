@@ -1,0 +1,13 @@
+﻿{
+  "AcctId": "string",
+  "AcctType": "string",
+  "CustId": "assetID",
+  "EndDt": "2020-05-06T00:00:00",
+  "StartDt": "2020-05-01T00:00:00",
+  "Statements": [
+    {
+      "StatementDate": "2020-05-01T00:00:00",
+      "StatementId": "string"
+    }
+  ]
+}

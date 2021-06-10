@@ -1,0 +1,16 @@
+﻿{
+  "CardId": 0,
+  "AssetId": "string",
+  "CustomerId": "string",
+  "LastFour": "0000",
+  "AccountBalance": "string",
+  "CardType": "string",
+  "Bin": "string",
+  "Pan": "string",
+  "ExpirationDate": "2512",
+  "CardHolder": "string",
+  "BusinessName": "string",
+  "Locked": 0,
+  "CardStatus": "string",
+  "Validated": 0
+}

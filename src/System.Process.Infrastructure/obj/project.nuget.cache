@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "IL78NjRZ3HZnyYm+6ROjI2ZIwOYSiB49RHz6L3lSrKEQLOLxE7kW8tCm+rGK8VzmMXsFE2EXRfFI/ZS8keBQIg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Infrastructure\\System.Process.Infrastructure.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Domain\\SystemSystem.ProcessProcess.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Domain\\SystemSystem.ProcessProcess.Domain.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Phoenix.DataAccess. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org, Safrapaydev",
+      "libraryId": "System.Phoenix.DataAccess",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Phoenix.Event. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org, Safrapaydev",
+      "libraryId": "System.Phoenix.Event",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

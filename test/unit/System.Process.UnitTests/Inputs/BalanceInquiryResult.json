@@ -1,0 +1,15 @@
+﻿{
+  "AccountNumber": "string",
+  "ResponseCode": "string",
+  "Message": "string",
+  "BlockCode": "string",
+  "ReClassCode": "string",
+  "BlockReClassDt": 1,
+  "AvailableCredit": 1,
+  "AvailableCash": "string",
+  "PendingAuthBal": "1",
+  "TotalCreditLimit": "string",
+  "LastStatementBalance": "string",
+  "TotalNewBalance": "10",
+  "NumberCreditBalanceMonths": "string"
+}

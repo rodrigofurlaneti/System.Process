@@ -1,0 +1,57 @@
+{
+  "SuccessRequest": {
+    "CardId": 1,
+    "Pan": "2831",
+    "Address": {
+      "Type": "Primary",
+      "Line1": "Street Line 213",
+      "Line2": "",
+      "Line3": "",
+      "City": "SHANANNTOWN",
+      "State": "FL",
+      "Country": "United States",
+      "ZipCode": "11111"
+    },
+    "ReplaceReason": "Damaged"
+  },
+  "SuccessRepositoryResponse": [
+    {
+      "CardId": 1,
+      "CustomerId": "SP-001",
+      "LastFour": "2831",
+      "AccountBalance": "0",
+      "CardType": "",
+      "Bin": "",
+      "Pan": "938498434322831",
+      "ExpirationDate": "2310",
+      "CardHolder": "Test",
+      "BusinessName": "Test",
+      "Locked": 1,
+      "CardStatus": "",
+      "Validated": 1
+    }
+  ],
+  "SuccessResult": {
+    "entity": {
+      "dateLastUsed": "2019-02-21T14:15:40.210-06:00",
+      "dateLastUpdated": "2019-02-21T14:15:40.210-06:00",
+      "dateLastMaintained": "2019-02-21T14:15:40.210-06:00",
+      "pan": {
+        "plainText": "1236540789000125",
+        "cipherText": "",
+        "alias": ""
+      },
+      "reissueDetails": {
+        "expirationDate": "2212"
+      }
+    },
+    "metadata": {
+      "msgLst": [
+        {
+          "code": "00",
+          "text": "SUCCESS"
+        }
+      ]
+    }
+  }
+}

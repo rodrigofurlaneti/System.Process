@@ -1,0 +1,36 @@
+﻿{
+  "SystemId":"UATT62680502888",
+  "CustomerId":"UAA0008",
+  "Amount":1,
+  "FromAccountId":"100006576",
+  "FromAccountType":"D",
+  "FromRoutingNumber":"026008413",
+  "ToAccountId":"15935722",
+  "ToAccountType":"D",
+  "ToRoutingNumber":"275071288",
+  "BankName":"Citizens banking ",
+  "BankAddress": {
+    "Line1":"5677 North Lake Drive",
+    "Line2":"",
+    "Line3":"",
+    "Lity":"Whitefish Bay",
+    "State":"WI",
+    "Country":"USA",
+    "ZipCode":"53217"
+  },
+  "ReceiverAddress": {
+    "Line1":"42 Magnolia Way",
+    "Line2":"",
+    "Line3":"",
+    "City":"Bridgewater",
+    "State":"MA",
+    "Country":"United States",
+    "ZipCode":"02324"
+  },
+  "ReceiverId":"300",
+  "ReceiverFirstName":"Rodrigo",
+  "ReceiverLastName":"Tuesdaytest",
+  "ReceiverEmail":"uat1201@gmail.com",
+  "ReceiverPhone":"+16172976371",
+  "Message":"string"
+}

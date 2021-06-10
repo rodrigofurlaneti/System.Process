@@ -1,0 +1,12 @@
+[
+  {
+    "TransferItemId": 1,
+    "SystemId": "SP-999",
+    "LifeCycleId": "test01",
+    "ReferenceId": null,
+    "Amount": 1,
+    "FrontImage": "front",
+    "RearImage": "back",
+    "Transfer": null
+  }
+]

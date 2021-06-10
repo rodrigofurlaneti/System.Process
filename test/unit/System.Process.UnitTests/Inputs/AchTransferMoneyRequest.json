@@ -1,0 +1,23 @@
+{
+  "SystemId": "SP-400",
+  "CustomerId": "DAA0001",
+  "ReceiverId": "135",
+  "NextDay": "standard",
+  "Amount": 100,
+  "ReducedPrincipal": "N",
+  "Memo": "test",
+  "AccountFrom": {
+    "Name": "Digital Business Test",
+    "RoutingNumber": "26008413",
+    "AccountId": "100000010",
+    "AccountType": "D"
+  },
+  "AccountTo": {
+    "Name": "Digital Business Affiliate Test",
+    "RoutingNumber": "26008413",
+    "AccountId": "100000037",
+    "AccountType": "D",
+    "Email": "teste@teste.com",
+    "Phone": "+111"
+  }
+}

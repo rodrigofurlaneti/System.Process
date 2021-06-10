@@ -1,0 +1,13 @@
+﻿{
+  "SocialSecurity__c": "string",
+  "FirstName": "string",
+  "LastName": "string",
+  "MiddleName": "string",
+  "Account": {
+    "Name": "string",
+    "TaxID__c": "string",
+    "Phone": "string",
+    "RiskRating__c": 0,
+    "BusinessAddress__c": "string"
+  }
+}

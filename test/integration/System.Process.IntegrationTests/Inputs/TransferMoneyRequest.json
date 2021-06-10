@@ -1,0 +1,16 @@
+{
+  "SystemId":"MSNJ69809651877",
+  "CustomerId":"MAA0067",
+  "ReceiverId":"341",
+  "AccountFrom": {
+    "FromAccountNumber":"100002617",
+    "FromAccountType":"D"
+  },
+  "AccountTo": {
+    "ToAccountNumber":"15935722",
+    "ToAccountType":"D"
+  },
+  "Amount":1,
+  "ReducedPrincipal":"N",
+  "Message":""
+}

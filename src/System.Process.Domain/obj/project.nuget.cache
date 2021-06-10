@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "j431OyigDJ+vW659NljgDxRjnCFOpvBX56LVF4sODrDzd7RGcO7XRAXmWtkMAHS0zhihy4j8fpaTMacuPe22tw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Domain\\System.Process.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\mongodb.bson\\2.11.6\\mongodb.bson.2.11.6.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Phoenix.Domain. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org, Safrapaydev",
+      "libraryId": "System.Phoenix.Domain",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

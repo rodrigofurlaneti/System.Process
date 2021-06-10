@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Domain\\SystemSystem.ProcessProcess.Domain.csproj",
+      "System.Phoenix.DataAccess >= 1.1.22",
+      "System.Phoenix.Event >= 1.1.22"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Infrastructure\\System.Process.Infrastructure.csproj",
+      "projectName": "System.Process.Infrastructure",
+      "projectPath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Infrastructure\\System.Process.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\r.madeira.furlaneti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/safrapaydev/_packaging/safrapaydev/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Domain\\SystemSystem.ProcessProcess.Domain.csproj": {
+              "projectPath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Domain\\SystemSystem.ProcessProcess.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "System.Phoenix.DataAccess": {
+            "target": "Package",
+            "version": "[1.1.22, )"
+          },
+          "System.Phoenix.Event": {
+            "target": "Package",
+            "version": "[1.1.22, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Domain\\SystemSystem.ProcessProcess.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Domain\\SystemSystem.ProcessProcess.Domain.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Phoenix.DataAccess. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org, Safrapaydev",
+      "libraryId": "System.Phoenix.DataAccess",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Phoenix.Event. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org, Safrapaydev",
+      "libraryId": "System.Phoenix.Event",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

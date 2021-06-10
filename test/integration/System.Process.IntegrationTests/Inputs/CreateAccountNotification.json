@@ -1,0 +1,129 @@
+﻿{
+  "MessageContent": {
+    "Payload": {
+      "Process": [
+        {
+          "Number": "number",
+          "Origin": 2,
+          "RoutingNumber": "number",
+          "AssetId": "string",
+          "Type": "type"
+        }
+      ],
+      "ListFiles": [
+        {
+          "Data": {
+            "BusinessId": "id",
+            "ContentType": "type",
+            "Document": "document",
+            "ExpirationDate": "2020-05-01T00:00:00",
+            "FileName": "name",
+            "IssueDate": "2020-05-01T00:00:00",
+            "Issuer": "issuer",
+            "Number": "number",
+            "VerifyResult": "result"
+          },
+          "File": "file"
+        }
+      ],
+      "Principals": [
+        {
+          "Address": {
+            "City": "city",
+            "Country": "country",
+            "Line1": "line",
+            "Line2": "line",
+            "Line3": "line",
+            "State": "state",
+            "Type": "type",
+            "ZipCode": "code"
+          },
+          "Bankruptcy": false,
+          "BankruptcyText": "text",
+          "Cif": "cif",
+          "Contacts": [
+            {
+              "Type": "type",
+              "Value": "value",
+              "Category": "Category"
+            }
+          ],
+          "DateOfBirth": "2020-05-01T00:00:00",
+          "FirstName": "name",
+          "LastName": "name",
+          "MiddleName": "name",
+          "NameSuffix": "sufix",
+          "Principalship": 0,
+          "TaxId": {},
+          "Title": "title"
+        }
+      ],
+      "ApplicationId": "id",
+      "BankAccount": {
+        "AccountNumber": "Number",
+        "BankCode": "code",
+        "RoutingNumber": "number"
+      },
+      "BusinessCif": "Cif",
+      "BusinessInformation": {
+        "DbaName": "name",
+        "TaxId": {
+          "Number": "number",
+          "Type": "type"
+        },
+        "EntityType": "type",
+        "FormationCountry": "Country",
+        "FormationDate": "2020-05-01T00:00:00",
+        "FormationState": "State",
+        "IndustryCode": "code",
+        "LegalName": "Name",
+        "NumberOfEmployees": 1,
+        "Transaction": {
+          "MonthlySales": 0,
+          "MonthlyTransactions": 1
+        },
+        "Website": "site"
+      },
+      "BusinessRepresentative": false,
+      "CustomerReturnPolicy": "none",
+      "CustomerReturnPolicyText": "none",
+      "Iso": {
+        "InternalContact": {
+          "FirstName": "name",
+          "LastName": "name",
+          "MiddleName": "name",
+          "NameSuffix": "sufix"
+        },
+        "Name": "name"
+      },
+      "MerchantId": "id",
+      "OnboardingStatus": 2,
+      "OpenCheckingAccount": false,
+      "Order": {
+        "OrderNumber": "OrderNumber",
+        "ShippingAddress": {
+          "City": "city",
+          "Country": "country",
+          "Line1": "line",
+          "Line2": "line",
+          "Line3": "line",
+          "State": "state",
+          "Type": "type",
+          "ZipCode": "code"
+        }
+      },
+      "OriginChannel": 3,
+      "PaperApplication": false,
+      "Pricing": {
+        "Type": "type"
+      },
+      "ProcessStep": 4,
+      "SalesforceId": "id",
+      "UnderwritingProcess": {
+        "Level": 0,
+        "Status": 2
+      }
+    },
+    "Topic": "Topic"
+  }
+}

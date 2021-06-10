@@ -1,0 +1,70 @@
+﻿namespace System.Process.Domain.Constants
+{
+    public static class Constants
+    {
+        public static readonly string NoCrInt = "NoCrInt";
+        public static readonly string CardAndPin = "Card and PIN";
+        public static readonly string NewOrder = "New Order";
+        public static readonly string OrderCreated = "Order Created";
+        public static readonly string IssueNewCard = " Issue new card only if current card is expired";
+        public static readonly string IssueNewImmediately = "Issue new immediately";
+        public static readonly string PendingActivation = "Pending Activation";
+        public static readonly string Xfer = "Xfer";
+        public static readonly string Safra = "Safra";
+        public static readonly string FileLoc = "FileLoc";
+        public static readonly string System = "System";
+        public static readonly string Full = "Full";
+        public static readonly string InLine = "InLine";
+        public static readonly string Base64ToPdfd = "data:application/pdf;base64,";
+        public static readonly string Outgoing = "Outgoing";
+        public static readonly string ApprovedPendingAcceptance = "Approved Pending Acceptance";
+        public static readonly string PendingAnalysisStatus = "Pending Analysis";
+        public static readonly string PendingActivationStatus = "Pending Activation";
+        public static readonly string ActiveStatus = "Active";
+        public static readonly string ActivedStatus = "Activated";
+        public static readonly string DeclinedByCustomerStatus = "Declined by Customer";
+        public static readonly string DeclinedByCreditStatus = "Declined By Credit";
+        public static readonly string DeclinedPendingAcknowledgeStatus = "Declined Pending Acknowledge";
+        public static readonly string CreditCardName = "Credit Card";
+        public static readonly string CreditCarType = "CR";
+        public static readonly string DebitCardName = "Debit Card";
+        public static readonly string DebitCardType = "DR";
+        public static readonly string SafraBankAccount = "Safra Bank Account";
+        public static readonly string TransactionCategory = "Pending";
+        public static readonly int CreditCardLocked = 1;
+        public static readonly int CreditCardValidated = 0;
+        public static readonly string CardLock = "lock";
+        public static readonly string CardUnlock = "unlock";
+        public static readonly string Debit = "Debit";
+        public static readonly string Credit = "Credit";
+        public static readonly string Cash = "Cash";
+        public static readonly string Check = "Check";
+        public static readonly string FeeCharge = "Fee/Charge";
+        public static readonly string MerchantSale = "Merchant Sale";
+        public static readonly string Other = "Other";
+        public static readonly string RefundReward = "Refund/Reward";
+        public static readonly string Transfer = "Transfer";
+        public static readonly string Statement = "Statement";
+        public static readonly string US = "US";
+        public static readonly string NSFFeeDescription = "NSF Fee";
+        public static readonly string BankingPackageFeesDescription = "Banking package fees";
+        public static readonly string ACHCreditTransactionDescription = "ACH Credit";
+        public static readonly string ACHDebitTransactionDescription = "ACH Debit";
+        public static readonly string InternalTransferCreditDescription = "Internal Transfer Credit";
+        public static readonly string InternalTransferDebitDescription = "Internal Transfer Debit";
+        public static readonly string RDCMobileDescription = "Mobile Check Deposit";
+        public static readonly string WireTransferDebitDescription = "Wire Transfer Debit";
+        public static readonly string WireTransferCreditDescription = "Wire Transfer Credit";
+        public static readonly string WireTransferFeeDescription = "Wire Transfer Fee";
+        public static readonly string ATMDepositDescription = "ATM Deposit";
+        public static readonly string ATMDepositDDADescription = "ATM Deposit - DDA";
+        public static readonly string ATMWithdrawDescription = "ATM Withdrawal";
+        public static readonly string DebitCardDescription = "Debit Card";
+        public static readonly string MemoDebitDescription = "Memo Debit";
+        public static readonly string MemoCreditDescription = "Memo Credit";
+        public static readonly string BusinessCreditCardOfferAgreement = "BusinessCreditCardOfferAgreement";
+        public static readonly string CreditTransactionType = "C";
+        public static readonly string BusinessBankAccountAgreement = "BusinessBankAccountAgreement";
+        public static readonly int MaximumRecords = 1000;
+    }
+}

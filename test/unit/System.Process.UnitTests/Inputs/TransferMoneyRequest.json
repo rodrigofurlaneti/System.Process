@@ -1,0 +1,16 @@
+﻿{
+  "SystemId": "SP-400",
+  "CustomerId": "DAA0001",
+  "ReceiverId": "135",
+  "Message":  "Teste",
+  "AccountFrom": {
+    "FromAccountNumber": "100000010",
+    "FromAccountType": "D"
+  },
+  "AccountTo": {
+    "ToAccountNumber": "100000037",
+    "ToAccountType": "D"
+  },
+  "Amount": 100,
+  "ReducedPrincipal": "N"
+}

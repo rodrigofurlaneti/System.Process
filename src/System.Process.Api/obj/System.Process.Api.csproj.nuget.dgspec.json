@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Api\\System.Process.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Api\\System.Process.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Api\\System.Process.Api.csproj",
+        "projectName": "System.Process.Api",
+        "projectPath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Api\\System.Process.Api.csproj",
+        "packagesPath": "C:\\Users\\r.madeira.furlaneti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\r.madeira.furlaneti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/safrapaydev/_packaging/safrapaydev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Application\\SystemSystem.ProcessProcess.Application.csproj": {
+                "projectPath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.Application\\SystemSystem.ProcessProcess.Application.csproj"
+              },
+              "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.CrossCutting\\SystemSystem.ProcessProcess.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\r.madeira.furlaneti\\Desktop\\safrapay-accounts\\src\\System.Process.CrossCutting\\SystemSystem.ProcessProcess.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Steeltoe.Extensions.Configuration.ConfigServerBase": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "System.Phoenix.Web": {
+              "target": "Package",
+              "version": "[1.1.22, )"
+            },
+            "System.Phoenix.Web.Security": {
+              "target": "Package",
+              "version": "[0.0.11, )"
+            },
+            "System.Phoenix.Web.Swagger": {
+              "target": "Package",
+              "version": "[1.1.22, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

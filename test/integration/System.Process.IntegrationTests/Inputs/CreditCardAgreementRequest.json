@@ -1,0 +1,19 @@
+{
+  "AssetId": "string",
+  "SystemId": "string",
+  "Terms": [
+    {
+      "Type": "string",
+      "AcceptanceDate": "2020-10-06T21:26:16.032Z"
+    }
+  ],
+  "Address": {
+    "Line1": "string",
+    "Line2": "string",
+    "Line3": "string",
+    "City": "string",
+    "State": "string",
+    "Country": "USA",
+    "ZipCode": "92775"
+  }
+}

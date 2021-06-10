@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="jose-jwt" Version="3.0.0" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+	<PackageReference Include="gfoidl.Base64" Version="1.1.1" />
+    <PackageReference Include="System.Phoenix.Common" Version="1.1.22" />
+    <PackageReference Include="System.Phoenix.Communication" Version="1.1.22" />
+    <PackageReference Include="System.Phoenix.Event" Version="1.1.22" />
+    <PackageReference Include="System.Phoenix.Pipeline" Version="1.1.22" />
+    <PackageReference Include="System.Proxy.Feedzai.Base" Version="1.0.11" />
+    <PackageReference Include="System.Proxy.Feedzai.TransferInitiation" Version="1.0.11" />
+    <PackageReference Include="System.Proxy.Fis" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.GetCard" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.GetToken" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.ActivateCard" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.ChangeCardPin" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.LockUnlock" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.RegisterCard" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.ReissueCard" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.SearchTransactions" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.TransactionDetail" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.CardReplace" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Fis.ChangeCardStatus" Version="1.0.27-beta.9" />
+    <PackageReference Include="System.Proxy.Rda" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.Rda.AddItem" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.Rda.Authenticate" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.Rda.CreateBatch" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.Rda.UpdateBatch" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.RdaAdmin" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.RdaAdmin.AddAccount" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.RdaAdmin.AddCustomer" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.RdaAdmin.GetProcessCriteria" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.RdaAdmin.GetProcessCriteriaReference" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.RdaAdmin.GetCustomersCriteria" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.RdaAdmin.UpdateAccount" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.RdaAdmin.UpdateCustomer" Version="1.0.15-beta.14" />
+    <PackageReference Include="System.Proxy.Rtdx.OrderNewPlastic" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Salesforce" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.GetTerms" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.GetAccountInformations" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.GetCommercialCompanyInfo" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.GetCustomerInformations" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.SearchAddress" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.UpdateAccount" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.GetBusinessInformation" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.GetCreditCards" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.GetRecordType" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.GetToken" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.RegisterAsset" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.Terms" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Salesforce.UpdateAsset" Version="1.4.47.159" />
+    <PackageReference Include="System.Proxy.Rtdx" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Rtdx.CardActivation" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Rtdx.CommercialCompanyAdd" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Rtdx.CreditTransaction" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Rtdx.GetToken" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Rtdx.PaymentInquiry" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.FourSight" Version="1.0.8-beta.2" />
+    <PackageReference Include="System.Proxy.FourSight.StatementGenerate" Version="1.0.8-beta.2" />
+    <PackageReference Include="System.Proxy.FourSight.StatementGenerateInquiry" Version="1.0.8-beta.2" />
+    <PackageReference Include="System.Proxy.FourSight.StatementSearch" Version="1.0.8-beta.2" />
+    <PackageReference Include="System.Proxy.Rtdx.BalanceInquiry" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Rtdx.NewAccountAdd" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Rtdx.PendingActivityDetails" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Rtdx.TransactionDetails" Version="1.1.9-beta.16" />
+    <PackageReference Include="System.Proxy.Silverlake.Base" Version="1.2.0.25" />
+    <PackageReference Include="System.Proxy.Silverlake.Customer" Version="1.2.0.25" />
+    <PackageReference Include="System.Proxy.Silverlake.Deposit" Version="1.2.0.25" />
+    <PackageReference Include="System.Proxy.Silverlake.TranferWire" Version="1.2.0.25" />
+    <PackageReference Include="System.Proxy.Silverlake.Transaction" Version="1.2.0.25" />
+    <PackageReference Include="System.Proxy.Silverlake.Inquiry" Version="1.2.0.25" />
+    <ProjectReference Include="..\System.Process.Domain\SystemSystem.ProcessProcess.Domain.csproj" />
+    <ProjectReference Include="..\System.Process.Infrastructure\SystemSystem.ProcessProcess.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

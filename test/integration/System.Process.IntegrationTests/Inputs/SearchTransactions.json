@@ -1,0 +1,88 @@
+{
+  "SuccessRequest": {
+    "CardId": 1
+  },
+  "SuccessRepositoryResponse": [
+    {
+      "CardId": 1,
+      "CustomerId": "SP-001",
+      "LastFour": "2831",
+      "AccountBalance": "0",
+      "CardType": "",
+      "Bin": "",
+      "Pan": "938498434322831",
+      "ExpirationDate": "2310",
+      "CardHolder": "Test",
+      "BusinessName": "Test",
+      "Locked": 1,
+      "CardStatus": "",
+      "Validated": 1
+    }
+  ],
+  "SuccessResult": {
+    "entity": {
+      "metadata": {
+        "msgLst": [
+          {
+            "code": "00",
+            "text": "SUCCESS"
+          }
+        ]
+      },
+      "txnCount": 3,
+      "transactions": [
+        {
+          "authCode": "602565",
+          "functionCode": "200",
+          "merchantCity": "TUKWILA,",
+          "merchantCountryCode": "USA",
+          "transactionDateTime": "2019112113550122",
+          "MCC": "6011",
+          "dateSettlement": "20191121",
+          "creditDebitIndicator": "3",
+          "merchantName": "B E C U",
+          "transactionType": "4020102000",
+          "transactionAmount": "$0.01",
+          "merchantAddress": "13035 GATEWAY DR",
+          "issuerDate": "20191121",
+          "actionCode": "000",
+          "primaryKey": "2019112113550122:1"
+        },
+        {
+          "authCode": "602566",
+          "functionCode": "200",
+          "merchantCity": "TUKWILA,",
+          "merchantCountryCode": "USA",
+          "transactionDateTime": "2019112113551923",
+          "MCC": "6011",
+          "dateSettlement": "20191121",
+          "creditDebitIndicator": "1",
+          "merchantName": "B E C U",
+          "transactionType": "0120002000",
+          "transactionAmount": "$20.00",
+          "merchantAddress": "13035 GATEWAY DR",
+          "issuerDate": "20191121",
+          "actionCode": "000",
+          "primaryKey": "2019112113551923:1"
+        },
+        {
+          "authCode": "602568",
+          "functionCode": "200",
+          "merchantCity": "TUKWILA,",
+          "merchantCountryCode": "USA",
+          "transactionDateTime": "2019112113574732",
+          "MCC": "6011",
+          "dateSettlement": "20191121",
+          "creditDebitIndicator": "1",
+          "merchantName": "B E C U",
+          "transactionType": "0120002000",
+          "transactionAmount": "$20.00",
+          "merchantAddress": "13035 GATEWAY DR",
+          "issuerDate": "20191121",
+          "actionCode": "000",
+          "primaryKey": "2019112113574732:3"
+        }
+      ]
+    }
+  }
+}

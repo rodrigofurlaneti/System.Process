@@ -1,0 +1,20 @@
+﻿{
+  "NewAccountAdd": {
+    "StatementGroupCode": "E",
+    "CardTwoType": "M",
+    "CheckOrderCode": "N",
+    "PrimaryCardDeliveryCode": "R",
+    "CardAnnualFeeIndicator": "T",
+    "CreditAssociationTwo": "W",
+    "LoyaltyCode": "Y",
+    "CreatePlastics": "Y",
+    "LoyaltyIndicator": "Y",
+    "EmbossNameIndicator": "Y",
+    "CommercialCardIndicator": "Y",
+    "Corp": "3V",
+    "SourceCode": "000000",
+    "CheckStartNumber": "001",
+    "ProcessingType": "50",
+    "InstitutionId": "000000002"
+  }
+}

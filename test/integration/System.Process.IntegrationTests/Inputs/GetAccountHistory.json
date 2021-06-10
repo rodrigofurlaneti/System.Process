@@ -1,0 +1,5110 @@
+﻿{
+  "SuccessRequest": {
+    "AccountNumber": "286963",
+    "AccountType": "D",
+    "StartDate": "2020-05-01T00:00:00",
+    "EndDate": "2020-05-06T00:00:00",
+    "TransactionsType": "Debit",
+    "SortMethod": 2,
+    "TransactionGroupName": "Transfers"
+  },
+  "AcctSrchSuccessResponse": {
+    "ProcessearchRecInfo": [
+      {
+        "AccountId": {
+          "AccountNumber": "286963",
+          "AccountType": "D"
+        },
+        "AccountRelationshipCode": "P",
+        "AccountRelationshipDesc": "Primary",
+        "Processtatus": "1",
+        "ProcesstatusDesc": "Active",
+        "AvailableBalance": null,
+        "Amount": 96339.82,
+        "CustomerId": "RAA0283",
+        "PersonName": null,
+        "ProductCode": "CC",
+        "ProductDesc": "Personal Checking Account",
+        "TaxId": "970000004",
+        "TINCode": "I",
+        "x_CondNotfInfoRec": null,
+        "PersonNameInfo": {
+          "CommunName": null,
+          "FirstName": null,
+          "LastName": null,
+          "MiddleName": null,
+          "XPersonName": null,
+          "x_PersonName": {
+            "TitlePrefix": null,
+            "NameSuffix": null,
+            "LegalName": null,
+            "SalName": null,
+            "AbbreviationName": null
+          },
+          "ComName": "Rodrigo Denser"
+        }
+      }
+    ],
+    "AccountType": null,
+    "AvlBalCalcCode": null,
+    "CustomerId": null,
+    "PersonName": {
+      "CommunName": null,
+      "FirstName": null,
+      "LastName": null,
+      "MiddleName": null,
+      "XPersonName": null,
+      "x_PersonName": {
+        "TitlePrefix": null,
+        "NameSuffix": null,
+        "LegalName": null,
+        "SalName": null,
+        "AbbreviationName": null
+      },
+      "ComName": null
+    },
+    "SrchMsgRsHdr": null,
+    "ResponseHeaderInfo": {
+      "JxChangeHeaderInfo": {
+        "AuditUserId": "System",
+        "AuditWorkStationId": "IDG",
+        "AuthenticationUserId": null,
+        "BusinessCorrelationId": "6bfb2ed0-bfd9-43cf-ab88-b296d57ae56b",
+        "ConsumerName": null,
+        "ConsumerProduct": null,
+        "InstEnvironment": "TEST",
+        "InstRtId": "011001276",
+        "JXLogTrackingId": "4a81ebd8-e248-4c04-8dfe-312a8a83e2db",
+        "JxVersion": "R2017.4",
+        "ValidConsmName": "System",
+        "ValidConsmProd": "IDA",
+        "WorkflowCorrelationId": null
+      },
+      "NumberOfSentRecords": 1,
+      "IsThereMoreRecords": "false",
+      "NextRecordCursor": "0",
+      "TotalRecordsExist": 1,
+      "MsgRecInfoArray": []
+    },
+    "TaxId": null
+  },
+  "AcctHistSuccessResponse": {
+    "AccountHistorySearchInfo": [
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.39,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-06T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-06T00:00:00",
+          "SequenceNumber": 34,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2PJ5XGKF",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.41,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-06T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-06T00:00:00",
+          "SequenceNumber": 76,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2PJ5XGM4",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.41,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-06T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-06T00:00:00",
+          "SequenceNumber": 55,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2PJ5XGL9",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.41,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-06T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-06T00:00:00",
+          "SequenceNumber": 38,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2PJ5XGKL",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.41,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-06T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-06T00:00:00",
+          "SequenceNumber": 36,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2PJ5XGKI",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 100.00,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-06T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-06T00:00:00",
+          "SequenceNumber": 73,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2PJ5XGM0",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.01,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-06T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-06T00:00:00",
+          "SequenceNumber": 75,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "115",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Fee",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2PJ5XGM2",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.56,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-05T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-05T00:00:00",
+          "SequenceNumber": 79,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2P2MJZIE",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.56,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-05T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-05T00:00:00",
+          "SequenceNumber": 76,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2P2MJZIA",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.98,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-05T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-05T00:00:00",
+          "SequenceNumber": 101,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "113",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Debit",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2P2MJZJF",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.01,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-05T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-05T00:00:00",
+          "SequenceNumber": 103,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "115",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Fee",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2P2MJZJH",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.01,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-05T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-05T00:00:00",
+          "SequenceNumber": 81,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "115",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Fee",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2P2MJZIG",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      },
+      {
+        "DepHistorySearchRec": {
+          "InfluencedCode": "B",
+          "InfluencedCodeDesc": "Current Balance",
+          "Amount": 0.01,
+          "BatchNumber": 507,
+          "ChkNumber": "0",
+          "DepAccountId": {
+            "AccountId": "286963",
+            "AccountType": "D"
+          },
+          "DifferentPostingDate": "2020-05-05T00:00:00",
+          "EftDescInfo": [
+            {
+              "FreeFormatDescription": "Electronic Transfer Debit"
+            }
+          ],
+          "EftTransactionId": null,
+          "ImageNumber": "0",
+          "MemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": "N",
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "RoutedTransaction": null,
+          "TransactionOverdraftPrivilege": "true",
+          "OldRate": 0.00000000,
+          "PayeeName": null,
+          "PostedDate": "2020-05-05T00:00:00",
+          "SequenceNumber": 78,
+          "SourceCodeDescription": "PHONE TFR",
+          "TransactionPassbookCode": "NA",
+          "TellerNumber": null,
+          "AcceptedTimeDate": null,
+          "MonetaryTransactionCode": "115",
+          "MonetaryTransactionCodeDesc": "Telephone Transfer Fee",
+          "HistoryBalanceAmount": 0.00,
+          "ReceiptSuccessfulTransaction": "JW2P2MJZIC",
+          "TransactionStatus": "A",
+          "DepTransactionType": "D",
+          "TransactionUserId": "System",
+          "WorkstationId": null,
+          "TransferKey": null,
+          "x_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "x_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "x_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "LnHistorySearchRec": {
+          "LnInfluencedCode": null,
+          "LnInfluencedCodeDesc": null,
+          "LnAmount": null,
+          "LnBatchnumber": null,
+          "LnCheckNumber": null,
+          "LnDifferentPostingDate": null,
+          "LnEftDescInfo": [],
+          "LnImageNumber": null,
+          "LnServicedTransactionCode": null,
+          "LnServicedTransactionCodeDesc": null,
+          "LoanAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "LnMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "LnRoutedTransaction": null,
+          "NewRate": null,
+          "OldRate": null,
+          "ScheduledPaymentDate": null,
+          "LnPostedDate": null,
+          "PostingSequence": null,
+          "SequenceNumber": null,
+          "SplitPostingSequence": null,
+          "LnSourceCodeDescription": null,
+          "LnTellerNumber": null,
+          "LnAcceptedTimeDate": null,
+          "LnMonetaryTransactionCode": null,
+          "LnMonetaryTransactionCodeDesc": null,
+          "LnHistoryBalanceAmount": null,
+          "LnReceiptSuccessfulTransaction": null,
+          "LnTransactionStatus": null,
+          "LnTransactionType": null,
+          "LnTransactionUserId": null,
+          "LnWorkstationId": null,
+          "LnTransferKey": null,
+          "Lnx_ACHHistSrchRec": {
+            "ACHHistSrchRec": {
+              "AchDiscretionaryData": null,
+              "AchDateDescriptive": null,
+              "AchEntryDescription": null,
+              "AchCompanyId": null,
+              "AchCompanyName": null,
+              "AchDateInstitution": null,
+              "AchDifferentdate": null,
+              "AchIndividualDiscretionaryData": null,
+              "AchAdditionalId": null,
+              "AchAdditionalName": null,
+              "AchReturnReasonCodes": null,
+              "AchReturnReasonDescription": null,
+              "AchStandardEntryClass": null,
+              "AchGeneralClassification": null,
+              "AchTraceId": null,
+              "AchTraceNumber": null,
+              "AchTransactionCode": null,
+              "AchTransactionDescription": null,
+              "AchTraceIdentifies": null
+            }
+          },
+          "Lnx_EFTCardHistSrchRec": {
+            "AddressVerificationCode": null,
+            "AddressVerificationDescription": null,
+            "AddressVerificationText": null,
+            "AppGenerateTransaction": null,
+            "EftTransactionSettled": null,
+            "CashDistrutedType": null,
+            "EftTransactionterminal": null,
+            "EftCardCaptureType": null,
+            "EftCardExpirationDate": null,
+            "EftCardNumber": null,
+            "EftCardSuffixNumber": null,
+            "EftCashTransactionAmount": null,
+            "EftCashTransactionRqAmount": null,
+            "EftDescriptionArray": [],
+            "EftExceptionAmount": null,
+            "EftNetworkId": null,
+            "EftAccountHolder": null,
+            "EftTransactionApproval": null,
+            "EFtTransactionApproved": null,
+            "EftSwitchProviderId": null,
+            "EftSwitchDate": null,
+            "EftSwitchTime": null,
+            "EftTransactionActivityId": null,
+            "EftActualAmount": null,
+            "EftAuthorizationBalance": null,
+            "EftTransactionCode": null,
+            "EftTransactionCorrelateCode": null,
+            "EftTransactionDescription": null,
+            "EftTransactionDate": null,
+            "EftProcessedDate": null,
+            "EftBalancePrinted": null,
+            "EftAmountRequested": null,
+            "EftTransactionProviderId": null,
+            "EftTransactionStatus": null,
+            "EftTransactionStatusDescription": null,
+            "EftTransactionStatusRemarks": null,
+            "EftTransactionTime": null,
+            "EftTransferTransactionId": null,
+            "EFTXferToAcctType": null,
+            "ExceptionReasonCode": null,
+            "ExceptionReasonDescription": null,
+            "MerchantName": null,
+            "MerchantPartialAuth": null,
+            "ExpirationDate": null,
+            "DaysRemaining": null,
+            "RecurringTransactionType": null,
+            "RemarksArray": [],
+            "ServiceChargeAmount": null,
+            "StandardIndustryCode": null,
+            "StandardIndustryDescription": null,
+            "ChargesTransactionalActivity": null,
+            "SwitchTransactionType": null,
+            "TransactionSettledDate": null,
+            "TransactionSettledTime": null
+          },
+          "Lnx_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "SafeDepHistorySearchRec": {
+          "SafeInfluencedCode": null,
+          "SafeInfluencedCodeDesc": null,
+          "SafeAmount": null,
+          "SafeBatchnumber": null,
+          "SafeImageNumber": null,
+          "SafeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "SafeScheduledPaymentDate": null,
+          "SafePostedDate": null,
+          "SafeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "SafeSequenceNumber": null,
+          "SafeSourceCodeDescription": null,
+          "SafeTellerNumber": null,
+          "SafeMonetaryTransactionCode": null,
+          "SafeMonetaryTransactionCodeDesc": null,
+          "SafeTransactionStatus": null,
+          "SafeTransactionType": null,
+          "SafeTransactionUserId": null,
+          "SafeWorkstationId": null,
+          "Safex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        },
+        "TimeDepHistorySearchRec": {
+          "TimeInfluencedCode": null,
+          "TimeInfluencedCodeDesc": null,
+          "TimeAmount": null,
+          "TimeBatchnumber": null,
+          "TimeImageNumber": null,
+          "TimeCheckNumber": null,
+          "TimeDifferentPostingDate": null,
+          "TimeMemoPosted": {
+            "MemoPostedCreated": null,
+            "MemoPosted": null,
+            "MemoPostRmkInfo": [],
+            "MemoPostedTimeCreated": null
+          },
+          "TimeRoutedTransaction": null,
+          "TimeNewRate": null,
+          "TimeOldRate": null,
+          "TimePostedDate": null,
+          "TimeSequenceNumber": null,
+          "TimeSourceCodeDescription": null,
+          "TimeTellerNumber": null,
+          "TimeDepAccountId": {
+            "AccountId": null,
+            "AccountType": null
+          },
+          "TimeMonetaryTransactionCode": null,
+          "TimeMonetaryTransactionCodeDesc": null,
+          "TimeHistoryBalanceAmount": null,
+          "TimeTransactionStatus": null,
+          "TimeTransactionType": null,
+          "TimeTransactionUserId": null,
+          "TimeWorkstationId": null,
+          "TimeTransferKey": null,
+          "Timex_StmtDataHistSrchRec": {
+            "StmtDataHistSrchRec": {
+              "TransactionStatementsDescription": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "TransactionSuccessResponse": [
+    {
+      "Label": "Transfers",
+      "TransactionCategories": [
+        {
+          "Code": 341,
+          "Description": "3rd Party Sweeps Credit"
+        },
+        {
+          "Code": 302,
+          "Description": "Account Recon Credit"
+        },
+        {
+          "Code": 156,
+          "Description": "Process Payable Payment"
+        },
+        {
+          "Code": 163,
+          "Description": "ACH Credit"
+        },
+        {
+          "Code": 161,
+          "Description": "AFT Credit"
+        },
+        {
+          "Code": 1651,
+          "Description": "ARP Return Item"
+        },
+        {
+          "Code": 287,
+          "Description": "ATM Transfer DDA to Savings"
+        },
+        {
+          "Code": 242,
+          "Description": "ATM Transfer Savings to DDA"
+        },
+        {
+          "Code": 171,
+          "Description": "Automatic Cash Advance"
+        },
+        {
+          "Code": 365,
+          "Description": "Balance Credit in Service Chg"
+        },
+        {
+          "Code": 311,
+          "Description": "Cash Management Credit"
+        },
+        {
+          "Code": 155,
+          "Description": "CD Interest"
+        },
+        {
+          "Code": 921,
+          "Description": "Clear Pre-Auth Memo Hold"
+        },
+        {
+          "Code": 919,
+          "Description": "Closing entry - Deposited"
+        },
+        {
+          "Code": 926,
+          "Description": "Closing entry -Credit balance"
+        },
+        {
+          "Code": 928,
+          "Description": "Closing entry -Credit transfer"
+        },
+        {
+          "Code": 913,
+          "Description": "Closing Entry:Accrued int paid"
+        },
+        {
+          "Code": 970,
+          "Description": "Contract Collection Deposit"
+        },
+        {
+          "Code": 250,
+          "Description": "Credit Accrual Adjustment"
+        },
+        {
+          "Code": 136,
+          "Description": "Credit Back Item"
+        },
+        {
+          "Code": 425,
+          "Description": "Dealer disbursement credit"
+        },
+        {
+          "Code": 22,
+          "Description": "Decrease YTD Interest Paid"
+        },
+        {
+          "Code": 150,
+          "Description": "Deposit from CD"
+        },
+        {
+          "Code": 14,
+          "Description": "Desc Deposit (EFT)"
+        },
+        {
+          "Code": 15,
+          "Description": "Desc Force Pay Deposit"
+        },
+        {
+          "Code": 157,
+          "Description": "Distribution from IRA"
+        },
+        {
+          "Code": 18,
+          "Description": "Encoding Error Credit Adjstmnt"
+        },
+        {
+          "Code": 700,
+          "Description": "Foreign Wire- Incoming"
+        },
+        {
+          "Code": 710,
+          "Description": "Foreign Wire Settlement Out"
+        },
+        {
+          "Code": 960,
+          "Description": "Fresh Start Advance"
+        },
+        {
+          "Code": 26,
+          "Description": "HSA Contribution Current Year"
+        },
+        {
+          "Code": 27,
+          "Description": "HSA Contribution Prior Year"
+        },
+        {
+          "Code": 28,
+          "Description": "HSA Direct Transfer"
+        },
+        {
+          "Code": 29,
+          "Description": "HSA Rollover Contribution"
+        },
+        {
+          "Code": 104,
+          "Description": "In Person Transfer - Credit"
+        },
+        {
+          "Code": 19,
+          "Description": "Increase Accrued Interest"
+        },
+        {
+          "Code": 24,
+          "Description": "Increase YTD State W/H"
+        },
+        {
+          "Code": 772,
+          "Description": "Int Bnking E-mail alert credit"
+        },
+        {
+          "Code": 774,
+          "Description": "Int Bnking text alert credit"
+        },
+        {
+          "Code": 20,
+          "Description": "Int to Bal/Raise YTD- EFT Only"
+        },
+        {
+          "Code": 160,
+          "Description": "Interest Deposit"
+        },
+        {
+          "Code": 151,
+          "Description": "Interest Rate Change"
+        },
+        {
+          "Code": 167,
+          "Description": "Interest Transfer Credit"
+        },
+        {
+          "Code": 741,
+          "Description": "Investment Sweep From DDA"
+        },
+        {
+          "Code": 742,
+          "Description": "Investment Sweep From Savings"
+        },
+        {
+          "Code": 689,
+          "Description": "IRA Transfer"
+        },
+        {
+          "Code": 152,
+          "Description": "Lease security credit"
+        },
+        {
+          "Code": 410,
+          "Description": "Loan dealer interest credit"
+        },
+        {
+          "Code": 430,
+          "Description": "Loan escrow disbursement"
+        },
+        {
+          "Code": 164,
+          "Description": "Loans In Process Payment"
+        },
+        {
+          "Code": 920,
+          "Description": "Memo Credit"
+        },
+        {
+          "Code": 368,
+          "Description": "OD Balance Credit to S/C"
+        },
+        {
+          "Code": 174,
+          "Description": "ODP Payment - Interest"
+        },
+        {
+          "Code": 472,
+          "Description": "Participation Credit"
+        },
+        {
+          "Code": 11,
+          "Description": "POD - Bank Force Pay Credit"
+        },
+        {
+          "Code": 10,
+          "Description": "POD - Credit/Deposit"
+        },
+        {
+          "Code": 233,
+          "Description": "POS - Credit - Savings"
+        },
+        {
+          "Code": 223,
+          "Description": "POS Credit - DDA"
+        },
+        {
+          "Code": 187,
+          "Description": "Proceeds of Club Account"
+        },
+        {
+          "Code": 501,
+          "Description": "R360 interest adjustment"
+        },
+        {
+          "Code": 377,
+          "Description": "Rel. Pricing Credit to S/C"
+        },
+        {
+          "Code": 366,
+          "Description": "Related Account credit to S/C"
+        },
+        {
+          "Code": 120,
+          "Description": "Return Item Credit"
+        },
+        {
+          "Code": 119,
+          "Description": "Returned Item Credit"
+        },
+        {
+          "Code": 12,
+          "Description": "Savings Deposit"
+        },
+        {
+          "Code": 13,
+          "Description": "Savings Force Pay Deposit"
+        },
+        {
+          "Code": 165,
+          "Description": "Stockholder Dividend Deposit"
+        },
+        {
+          "Code": 251,
+          "Description": "Stop Payment Returned Item"
+        },
+        {
+          "Code": 471,
+          "Description": "Syndication Credit"
+        },
+        {
+          "Code": 114,
+          "Description": "Telephone Transfer Credit"
+        },
+        {
+          "Code": 780,
+          "Description": "Transfer from CD"
+        },
+        {
+          "Code": 782,
+          "Description": "Transfer from DDA"
+        },
+        {
+          "Code": 541,
+          "Description": "Transfer from G/L"
+        },
+        {
+          "Code": 786,
+          "Description": "Transfer from Loan"
+        },
+        {
+          "Code": 784,
+          "Description": "Transfer from Savings"
+        },
+        {
+          "Code": 800,
+          "Description": "Visa Credit"
+        },
+        {
+          "Code": 201,
+          "Description": "Voice Response Credit"
+        },
+        {
+          "Code": 116,
+          "Description": "Wire Transfer Credit"
+        },
+        {
+          "Code": 344,
+          "Description": "3rd Party Sweeps Debit"
+        },
+        {
+          "Code": 183,
+          "Description": "ACH Debit"
+        },
+        {
+          "Code": 181,
+          "Description": "AFT Debit"
+        },
+        {
+          "Code": 261,
+          "Description": "ATM Transfer DDA to Savings"
+        },
+        {
+          "Code": 283,
+          "Description": "ATM Transfer Savings to DDA"
+        },
+        {
+          "Code": 173,
+          "Description": "Automatic Cash Reserve Payment"
+        },
+        {
+          "Code": 473,
+          "Description": "Automatic Loan Payment"
+        },
+        {
+          "Code": 310,
+          "Description": "Cash Management Debit"
+        },
+        {
+          "Code": 185,
+          "Description": "Christmas Club Closing Entry"
+        },
+        {
+          "Code": 918,
+          "Description": "Closing entry - Deposit funds"
+        },
+        {
+          "Code": 916,
+          "Description": "Closing entry - zero balance"
+        },
+        {
+          "Code": 929,
+          "Description": "Closing entry -Funds Transfer"
+        },
+        {
+          "Code": 912,
+          "Description": "Closing Entry:Increase YTD int"
+        },
+        {
+          "Code": 911,
+          "Description": "Closing Entry:Reduce accrued"
+        },
+        {
+          "Code": 186,
+          "Description": "Club Account Interest Payment"
+        },
+        {
+          "Code": 971,
+          "Description": "Contract Collection Reversal"
+        },
+        {
+          "Code": 426,
+          "Description": "Dealer disbursement debit"
+        },
+        {
+          "Code": 251,
+          "Description": "Debit Accrual Adjustment"
+        },
+        {
+          "Code": 476,
+          "Description": "Debt Protection Payment"
+        },
+        {
+          "Code": 69,
+          "Description": "Decrease Accrued Interest"
+        },
+        {
+          "Code": 74,
+          "Description": "Decrease YTD State W/H"
+        },
+        {
+          "Code": 81,
+          "Description": "Deposit Reversal (EFT)"
+        },
+        {
+          "Code": 80,
+          "Description": "Deposit Reversal (Paper)"
+        },
+        {
+          "Code": 62,
+          "Description": "Descriptive Debit (EFT)"
+        },
+        {
+          "Code": 63,
+          "Description": "Descriptive Force Pay Debit"
+        },
+        {
+          "Code": 68,
+          "Description": "Encoding Error Debit Adjstmnt"
+        },
+        {
+          "Code": 701,
+          "Description": "Foreign Wire- Callback- FDX"
+        },
+        {
+          "Code": 703,
+          "Description": "Foreign Wire- Callback- USD"
+        },
+        {
+          "Code": 705,
+          "Description": "Foreign Wire- In Person- FDX"
+        },
+        {
+          "Code": 706,
+          "Description": "Foreign Wire- In Person- USD"
+        },
+        {
+          "Code": 702,
+          "Description": "Foreign Wire- Internet- FDX"
+        },
+        {
+          "Code": 704,
+          "Description": "Foreign Wire- Internet- USD"
+        },
+        {
+          "Code": 709,
+          "Description": "Foreign Wire Settlement In"
+        },
+        {
+          "Code": 961,
+          "Description": "Fresh Start AFT Payment"
+        },
+        {
+          "Code": 95,
+          "Description": "HSA Death Dist- After Death Yr"
+        },
+        {
+          "Code": 93,
+          "Description": "HSA Death Distribution"
+        },
+        {
+          "Code": 94,
+          "Description": "HSA Disability Distribution"
+        },
+        {
+          "Code": 91,
+          "Description": "HSA Distribution"
+        },
+        {
+          "Code": 98,
+          "Description": "HSA Non-Reportable Distributn"
+        },
+        {
+          "Code": 97,
+          "Description": "HSA Remove Excess Contribution"
+        },
+        {
+          "Code": 103,
+          "Description": "In Person Transfer- DB"
+        },
+        {
+          "Code": 72,
+          "Description": "Increase YTD Interest Paid"
+        },
+        {
+          "Code": 767,
+          "Description": "Int Bnking ACH batch"
+        },
+        {
+          "Code": 768,
+          "Description": "Int Bnking ACH file upload"
+        },
+        {
+          "Code": 766,
+          "Description": "Int Bnking ACH items"
+        },
+        {
+          "Code": 757,
+          "Description": "Int Bnking adding a stop"
+        },
+        {
+          "Code": 780,
+          "Description": "Int Bnking ARP file upload"
+        },
+        {
+          "Code": 755,
+          "Description": "Int Bnking current day inquiry"
+        },
+        {
+          "Code": 760,
+          "Description": "Int Bnking doing a repeat wire"
+        },
+        {
+          "Code": 759,
+          "Description": "Int Bnking doing a single wire"
+        },
+        {
+          "Code": 763,
+          "Description": "Int Bnking downloading file"
+        },
+        {
+          "Code": 756,
+          "Description": "Int Bnking history inquiry"
+        },
+        {
+          "Code": 758,
+          "Description": "Int Bnking inquiring on a stop"
+        },
+        {
+          "Code": 754,
+          "Description": "Int Bnking prior day inquiry"
+        },
+        {
+          "Code": 762,
+          "Description": "Int Bnking transfering funds"
+        },
+        {
+          "Code": 764,
+          "Description": "Int Bnking uploading pos pay"
+        },
+        {
+          "Code": 765,
+          "Description": "Int Bnking uploading recon"
+        },
+        {
+          "Code": 761,
+          "Description": "Int Bnking view of statement"
+        },
+        {
+          "Code": 166,
+          "Description": "Interest Transfer Debit"
+        },
+        {
+          "Code": 724,
+          "Description": "Investment Sweep to DDA"
+        },
+        {
+          "Code": 725,
+          "Description": "Investment Sweep to Savings"
+        },
+        {
+          "Code": 153,
+          "Description": "Lease security debit"
+        },
+        {
+          "Code": 154,
+          "Description": "Lease security increase YTD"
+        },
+        {
+          "Code": 190,
+          "Description": "List Post"
+        },
+        {
+          "Code": 420,
+          "Description": "Loan dealer interest debit"
+        },
+        {
+          "Code": 415,
+          "Description": "Loan dealer recourse debit"
+        },
+        {
+          "Code": 980,
+          "Description": "Memo Debit"
+        },
+        {
+          "Code": 250,
+          "Description": "NSF Item Paid"
+        },
+        {
+          "Code": 475,
+          "Description": "Participation Debit"
+        },
+        {
+          "Code": 60,
+          "Description": "POD - Bank Initiated Debit"
+        },
+        {
+          "Code": 61,
+          "Description": "POD-Bank Force Pay Debit"
+        },
+        {
+          "Code": 228,
+          "Description": "POS Debit - DDA"
+        },
+        {
+          "Code": 238,
+          "Description": "POS Debit - Savings"
+        },
+        {
+          "Code": 231,
+          "Description": "POS Debit-PIN-DDA"
+        },
+        {
+          "Code": 230,
+          "Description": "POS Debit-Signature-DDA"
+        },
+        {
+          "Code": 229,
+          "Description": "POS Pre-Authorized Debit - DDA"
+        },
+        {
+          "Code": 239,
+          "Description": "POS Pre-Authorized Debit - Sav"
+        },
+        {
+          "Code": 240,
+          "Description": "POS Recurring Debit"
+        },
+        {
+          "Code": 241,
+          "Description": "POS Recurring Debit-Savings"
+        },
+        {
+          "Code": 981,
+          "Description": "Pre-auth Memo Hold"
+        },
+        {
+          "Code": 500,
+          "Description": "R360 debit accrued interest"
+        },
+        {
+          "Code": 502,
+          "Description": "R360 Increase YTD interest"
+        },
+        {
+          "Code": 301,
+          "Description": "RC T/C"
+        },
+        {
+          "Code": 110,
+          "Description": "Safe Deposit Rental Payment"
+        },
+        {
+          "Code": 474,
+          "Description": "Syndication Debit"
+        },
+        {
+          "Code": 113,
+          "Description": "Telephone Transfer Debit"
+        },
+        {
+          "Code": 750,
+          "Description": "Trans to DDA Credit Relation"
+        },
+        {
+          "Code": 751,
+          "Description": "Trans to Sav Credit Relation"
+        },
+        {
+          "Code": 794,
+          "Description": "Transfer to CD"
+        },
+        {
+          "Code": 149,
+          "Description": "Transfer to Christmas Club"
+        },
+        {
+          "Code": 788,
+          "Description": "Transfer to DDA"
+        },
+        {
+          "Code": 544,
+          "Description": "Transfer to G/L"
+        },
+        {
+          "Code": 148,
+          "Description": "Transfer to IRA"
+        },
+        {
+          "Code": 792,
+          "Description": "Transfer to Loan"
+        },
+        {
+          "Code": 790,
+          "Description": "Transfer to Savings"
+        },
+        {
+          "Code": 202,
+          "Description": "Voice Response Debit"
+        },
+        {
+          "Code": 111,
+          "Description": "Wire Transfer Debit"
+        }
+      ],
+      "Id": "c0045b78-d90f-413b-86f6-226757b07b56"
+    }
+  ],
+  "AcctSrchErrorResponse": {
+    "ProcessearchRecInfo": []
+  },
+  "AcctSrchInvalidStatusResponse": {
+    "ProcessearchRecInfo": [
+      {
+        "Processtatus": "0"
+      }
+    ]
+  },
+  "ErrorRequest": {
+    "AccountId": {
+      "AccountNumber": null,
+      "AccountType": ""
+    },
+    "StartDate": "2020-05-01T00:00:00",
+    "EndDate": "2020-04-06T00:00:00",
+    "TransactionsType": "c",
+    "SortMethod": 2,
+    "TransactionGroupName": "transfer"
+  },
+  "ErrorRequestStartDate": {
+    "AccountId": {
+      "AccountNumber": "289384",
+      "AccountType": "D"
+    },
+    "StartDate": null,
+    "EndDate": "2020-04-06T00:00:00",
+    "TransactionsType": "c",
+    "SortMethod": 2,
+    "TransactionGroupName": "transfer"
+  },
+  "ErrorRequestEndDate": {
+    "AccountId": {
+      "AccountNumber": "289384",
+      "AccountType": "D"
+    },
+    "StartDate": "2020-04-06T00:00:00",
+    "EndDate": null,
+    "TransactionsType": "c",
+    "SortMethod": 2,
+    "TransactionGroupName": "transfer"
+  }
+}

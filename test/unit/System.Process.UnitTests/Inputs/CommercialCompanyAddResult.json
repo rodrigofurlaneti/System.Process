@@ -1,0 +1,19 @@
+﻿{
+  "ResponseCode": "00",
+  "Message": "",
+  "CompanyId": "",
+  "SubLevelNumber": "",
+  "SubLevelId": "",
+  "OwnerNumber": "",
+  "OwnerId": "",
+  "HierLevelNumberOne": "",
+  "HierLevelIdOne": "",
+  "HierLevelNumberTwo": "",
+  "HierLevelIdTwo": "",
+  "HierLevelNumberThree": "",
+  "HierLevelIdThree": "",
+  "HierLevelNumberFour": "",
+  "HierLevelIdFour": "",
+  "BankBranchName": "",
+  "CompanyImageID": ""
+}

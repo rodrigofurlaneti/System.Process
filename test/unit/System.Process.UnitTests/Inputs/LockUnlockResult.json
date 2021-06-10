@@ -1,0 +1,21 @@
+{
+  "Entity": {
+    "Pan": {
+      "PlainText": "4053232690633133",
+      "CipherText": "",
+      "Alias": ""
+    },
+    "Control": {
+      "AccountEnabled": "true"
+    },
+    "SubscriberId": "1234"
+  },
+  "Metadata": {
+    "Sessages": [
+      {
+        "Code": "00",
+        "Text": "SUCCESS"
+      }
+    ]
+  }
+}

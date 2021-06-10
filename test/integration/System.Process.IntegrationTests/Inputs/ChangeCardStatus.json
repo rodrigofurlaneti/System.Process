@@ -1,0 +1,33 @@
+{
+  "SuccessRequest": {
+    "CardId": 1,
+    "Action": "lock"
+  },
+  "SuccessResult": {
+    "metadata": {
+      "messages": [
+        {
+          "code": "00",
+          "text": "SUCCESS"
+        }
+      ]
+    }
+  },
+  "SuccessCard": [
+    {
+      "CardId": 1,
+      "CustomerId": "Teste",
+      "LastFour": "2007",
+      "AccountBalance": "0",
+      "CardType": "DR",
+      "Bin": "111111",
+      "Pan": "111111111111111111",
+      "ExpirationDate": "2512",
+      "CardHolder": "Teste",
+      "BusinessName": "Teste",
+      "Locked": 0,
+      "CardStatus": "Active",
+      "Validated": 0
+    }
+  ]
+}

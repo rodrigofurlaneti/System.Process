@@ -1,0 +1,42 @@
+{
+  "reissueEntity": {
+    "dateLastUsed": "2019-02-21T14:15:40.210-06:00",
+    "dateLastUpdated": "2019-02-21T14:15:40.210-06:00",
+    "dateLastMaintained": "2019-02-21T14:15:40.210-06:00",
+    "reissueDetails": {
+      "memberNumber": "01",
+      "activationFlag": "Y",
+      "expirationDate": "1906",
+      "addressType": "",
+      "embossedName": "",
+      "cardOrderFlag": "B",
+      "cardOrderStatusFlag": {
+        "description": "Static/Do not order",
+        "hostDescription": "Static/Do not order",
+        "hostValue": "0"
+      },
+      "cardOrderType": {
+        "description": "Issue new card only if current card is expired",
+        "hostDescription": "Issue new card only if current card is expired",
+        "hostValue": "0"
+      },
+      "cardReissueIndicator": "Y",
+      "cardStockCode": "",
+      "flatCardInd": "Y",
+      "issuerStockCode": "",
+      "customImageId": "IMAGEOFYOU.PNG",
+      "photoId": "Y",
+      "imageId": "ANOTHERIMAGE.JPG"
+    }
+  },
+  "metadata": {
+    "messages": [
+      {
+        "code": "00",
+        "text": "SUCCESS",
+        "type": "APPLICATION_ERROR",
+        "severity": "Info"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "Name": "Name2",
+  "CIFID__c": "SAA0007",
+  "SystemID__c": "SystemId",
+  "MerchantID__c": "MerchantId",
+  "TaxID__c": "TaxID",
+  "HasFISCompanyID__c": false
+}

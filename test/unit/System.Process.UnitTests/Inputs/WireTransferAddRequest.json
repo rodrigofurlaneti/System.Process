@@ -1,0 +1,36 @@
+﻿{
+  "SystemId": "SP-400",
+  "CustomerId": "DAA0001",
+  "ReceiverId": "196",
+  "FromAccountId": "100000010",
+  "FromAccountType": "D",
+  "FromRoutingNumber": "teste",
+  "ToAccountId": "100000037",
+  "ToAccountType": "D",
+  "ToRoutingNumber": "026003023",
+  "BankName": "Mary",
+  "BankAddress": {
+    "Line1": "414 Illinois Ave.Anaheim, CA 92806",
+    "Line2": "string",
+    "Line3": "string",
+    "City": "Tuscaloosa",
+    "State": "AL",
+    "Country": "USA",
+    "ZipCode": "35401"
+  },
+  "Amount": 100,
+  "ReceiverFirstName": "April",
+  "ReceiverLastName": "string",
+  "ReceiverAddress": {
+    "Line1": "414 Illinois Ave.Anaheim, CA 92806",
+    "Line2": "",
+    "Line3": "string",
+    "City": "Tuscaloosa",
+    "State": "AL",
+    "Country": "USA",
+    "ZipCode": "35401"
+  },
+  "ReceiverEmail": "teste@teste.com",
+  "ReceiverPhone": "+1111",
+  "Message": "string"
+}

@@ -1,0 +1,21 @@
+{
+  "ACHEffectiveDate": "",
+  "ACHAmount": "",
+  "DDASavingsAcctNumber": "",
+  "TransitRoutingNumber": "",
+  "ACHStatus": "",
+  "ACHPaymentCodeSetUp": "",
+  "NextCycleDate": "",
+  "LastPaymentPostedDate": "",
+  "TotaLastPaymentAmountlDueNow": "",
+  "TotalCTDPaymentAmount": "",
+  "MinimumPaymentDue": "",
+  "TotalPastDueAmount": "0",
+  "TotalDueNow": "0",
+  "PaymentDueDate": "",
+  "Message": "",
+  "ResponseCode": "",
+  "AccountNumber": "",
+  "AutoPmtFrequency": "",
+  "MobilePaymentEligibleInd": ""
+}
